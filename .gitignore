@@ -1,0 +1,29 @@
+# dependencies
+node_modules
+
+# builds
+.next
+out
+dist
+build
+coverage
+
+# env
+.env
+.env.*
+!.env.example
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# macOS
+.DS_Store
+
+# prisma
+/apps/server/prisma/dev.db
+
+# turbo
+.turbo 
